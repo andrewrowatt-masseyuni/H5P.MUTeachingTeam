@@ -1,0 +1,19 @@
+{
+  "title": "MU Teaching Team",
+  "description": "Teaching Team widget for MU template learning section.",
+  "language": "en",
+  "author": "Andrew Rowatt",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors":[{
+    "name":"Andrew Rowatt",
+    "role":"Author"
+  }],
+  "preloadedDependencies": [{
+    "machineName": "H5P.MUTeachingTeam",
+    "majorVersion": 1,
+    "minorVersion": 2 
+  }],
+  "mainLibrary": "H5P.MUTeachingTeam",
+  "embedTypes": ["div"]
+}
