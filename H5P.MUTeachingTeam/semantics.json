@@ -101,7 +101,7 @@
 		  "label": "Email",
 		  "optional": true,
 		  "default": "",
-		  "description": "Email address.  Displayed as a clickable link. Leave blank to not display this field for this teacher."
+		  "description": "Email address. Displayed as a clickable link. Leave blank to not display this field for this teacher."
 		}
 		,
 		{
@@ -112,7 +112,7 @@
 		  "label": "Short biography",
 		  "optional": true,
 		  "default": "",
-		  "description": "Short biography.  Two or three lines is the recommended maximum. Leave blank to not display this field for this teacher."
+		  "description": "Short biography. Two or three lines is the recommended maximum. Leave blank to not display this field for this teacher."
 		}
 		,
 		{
@@ -134,7 +134,7 @@
   "options": [
     {
       "value": "auto",
-      "label": "Auto - Three columns, or two columns if four or less items."
+      "label": "Auto (Three columns, or two columns if four or less items)"
     },
     {
       "value": "2",
