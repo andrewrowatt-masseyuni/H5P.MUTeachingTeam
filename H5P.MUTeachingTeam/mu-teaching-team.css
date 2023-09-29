@@ -13,9 +13,7 @@
   font-size: 16px; /* Snap default is 18px */
   line-height: 1.4em;
   color: #565656;
-}
-
-.h5p-teachers .teacher {
+  gap:8px;
 }
 
 .h5p-teachers .teacher {
@@ -23,19 +21,10 @@
     border-style: solid;
     border-width: 1px;
     width: 252px;
-    margin: 0 8px 8px 0;
     border-radius: 12px;
 	display: block;
 	position: relative;
 	padding-bottom: 24px; /* Space for more info */
-}
-
-.h5p-teachers .teacher:last-child {
-	margin-right:0;
-}
-
-.h5p-teachers.h5p-teachers-threecol .teacher:nth-child(3n) {
-	margin-right:0;
 }
 
 .h5p-teachers.h5p-teachers-twocol .teacher {
@@ -47,11 +36,7 @@
 }
 
 .h5p-teachers.h5p-teachers-fourcol .teacher {
-    width: 189px;
-}
-
-.h5p-teachers.h5p-teachers-fourcol .teacher:nth-child(4n) {
-	margin-right:0;
+    width: 187px;
 }
 
 .h5p-teachers a.teacher:hover {
@@ -71,9 +56,6 @@
     width: 16px;
     text-align: center;
     margin-right: 8px;
-}
-
-.h5p-teachers .teacher div.teacher-item:last-child {
 }
 
 .h5p-teachers .teacher div.teacher-label {
