@@ -20,7 +20,7 @@
     border-color: #d1d6da;
     border-style: solid;
     border-width: 1px;
-    width: 252px;
+    width: 242px;
     border-radius: 12px;
 	display: block;
 	position: relative;
@@ -28,7 +28,7 @@
 }
 
 .h5p-teachers.h5p-teachers-twocol .teacher {
-    width: 384px;
+    width: 366px;
 }
 
 .h5p-teachers.h5p-teachers-twocol .teacher:nth-child(2n) {
