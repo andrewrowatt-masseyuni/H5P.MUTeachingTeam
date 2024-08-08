@@ -39,6 +39,13 @@ H5P.MUTeachingTeam = (function ($) {
 		$container.addClass("h5p-teachers-threecol");
 	}
 
+	$container.addClass(`h5p-teachers-optionset-${this.options.optionset}`);
+
+	var officehours = 'Office Hours';
+	if(this.options.optionset == 'coca1') {
+		officehours = 'Open Hours';
+	}
+
 	for(teacher of this.options.teachers) {
 		var html = '<div class="teacher">';
 		
@@ -62,7 +69,7 @@ H5P.MUTeachingTeam = (function ($) {
 		if(teacher.officecampus) html += '<div class="teacher-item office-text teacher-item-icon">' + teacher.officecampus + '</div>';
 		html+='</div>'
 		
-		if(teacher.officehours) html += '<div class="teacher-item teacher-label officehours-text teacher-item-icon">Office Hours</div><div class="teacher-item officehours-text">' + teacher.officehours + '</div>';
+		if(teacher.officehours) html += `<div class="teacher-item teacher-label officehours-text teacher-item-icon">${officehours}</div><div class="teacher-item officehours-text">${teacher.officehours}</div>`;
 		
 		if(teacher.email) html += '<div class="teacher-item email-text teacher-item-icon"><a href="mailto:' + teacher.email + '">' + teacher.email + '</a></div>';
 		if(teacher.phone) html += '<div class="teacher-item phone-text teacher-item-icon">' + teacher.phone + '</div>';

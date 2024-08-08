@@ -150,5 +150,22 @@
     }
   ],
   "default": "auto"
+},
+{
+  "name": "optionset",
+  "type": "select",
+  "label": "Option set",
+  "description": "The option set for this set of items.",
+  "options": [
+    {
+      "value": "default",
+      "label": "Standard"
+    },
+    {
+      "value": "coca1",
+      "label": "College of Creative Arts (Set 1)"
+    }
+  ],
+  "default": "default"
 }
 ]
