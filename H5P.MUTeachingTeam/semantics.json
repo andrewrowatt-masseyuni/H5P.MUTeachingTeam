@@ -11,7 +11,7 @@
   "label": "Teachers",
   "entity": "teacher",
   "min": 1,
-  "max": 20,
+  "max": 30,
   "field": {
 	  "name": "teacher",
 	  "type": "group",
